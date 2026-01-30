@@ -1,0 +1,67 @@
+:root {
+  /* =========================
+     Color Palette
+     ========================= */
+
+  /* Primary Colors */
+  --primary-color: #1090cb;
+  --primary-hover: #0e81b6;
+  --primary-light: #e7f4fa;
+
+  /* Gray Scale */
+  --gray-darker: #545454;
+  --gray-dark: #5C5C5C;
+  --gray-medium: #868686;
+  --gray-light: #969696;
+
+  /* Generic Colors */
+  --black: #000000;
+  --white: #ffffff;
+
+  /* Spacing */
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 65px;
+  --spacing-3xl: 71px;
+
+  /* Typography */
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-40: 40px;
+
+  --line-height-base: 1.5;
+  --line-height-lg: 1.75;
+  --line-height-xl: 2;
+
+  --font-weight-base: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Transitions */
+  --transition-base: 0.3s ease;
+
+  /* Grid */
+  --grid-2: repeat(1, 1fr);
+  --grid-3: repeat(1, 1fr);
+  --grid-4: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 576px) {
+  :root {
+    --grid-2: repeat(2, 1fr);
+    --grid-3: repeat(2, 1fr);
+    --grid-4: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 991px) {
+  :root {
+    --grid-2: repeat(2, 1fr);
+    --grid-3: repeat(3, 1fr);
+    --grid-4: repeat(4, 1fr);
+  }
+}

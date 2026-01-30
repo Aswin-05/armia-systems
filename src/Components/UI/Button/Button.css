@@ -1,0 +1,41 @@
+.default-btn {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+
+  &.bg-blue {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--primary-color);
+    transition: var(--transition-base);
+  }
+
+  &.bg-blue:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+  }
+
+  &.py-11 {
+    padding-block: 11px;
+  }
+
+  &.px-26 {
+    padding-inline: 26px;
+  }
+
+  &.radius-6 {
+    border-radius: 6px;
+  }
+
+  &.bg-fff {
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: var(--transition-base);
+  }
+
+  &.bg-fff:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
+}

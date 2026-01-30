@@ -1,0 +1,39 @@
+/* Global Styles */
+
+/* Import Variables & Fonts */
+@import "./assets/_variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--bg-body);
+  color: var(--black);
+  line-height: var(--line-height-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Make images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+}

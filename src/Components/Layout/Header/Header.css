@@ -1,0 +1,62 @@
+/* Custom styles for the Header */
+
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-nav {
+  gap: var(--spacing-md);
+}
+
+.nav-btn-wrap {
+  margin-top: var(--spacing-md);
+}
+
+.nav-link {
+  color: var(--black);
+  font-weight: var(--font-weight-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+  transition: var(--transition-base);
+}
+
+/* The active dot indicator style */
+.active-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #08d3bb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -50%;
+}
+
+.logo {
+  color: var(--primary-color);
+  font-weight: var(--font-weight-bold);
+  font-size: 29px;
+  line-height: var(--line-height-base);
+}
+
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 30px 0;
+  }
+
+  .navbar-nav {
+    gap: var(--spacing-3xl);
+  }
+
+  .nav-btn-wrap {
+    margin-top: 0px;
+  }
+
+  .navbar-collapse {
+    gap: var(--spacing-3xl);
+  }
+}
