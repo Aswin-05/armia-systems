@@ -26,13 +26,18 @@
 }
 
 /* The active dot indicator style */
+.nav-item:has(.active-dot) {
+  position: relative;
+}
+
 .active-dot {
   width: 8px;
   height: 8px;
   background-color: #08d3bb;
   border-radius: 50%;
-  display: inline-block;
-  margin-top: -50%;
+  position: absolute;
+  top: 0px;
+  left: -5px;
 }
 
 .logo {
